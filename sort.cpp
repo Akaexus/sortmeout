@@ -1,6 +1,3 @@
-//
-// Created by krzysztof on 13.02.18.
-//
 #include "sort.h"
 #include <vector>
 
