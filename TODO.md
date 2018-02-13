@@ -1,8 +1,8 @@
 # Sort me out - TODO
 ## TODO
 * [x] Generowanie ciągów o podanej przez użytkownika długości
-* [ ] Zapisywanie ciągów do pliku
-* [ ] Odczytywanie ciągów z pliku
+* [x] Zapisywanie ciągów do pliku
+* [x] Odczytywanie ciągów z pliku
 * [x] Sortowanie ciągów za pomocą Selection Sort
 * [x] Sortowanie ciągów za pomocą Insertion Sort
 * [x] Sortowanie ciągów za pomocą Bubble Sort
