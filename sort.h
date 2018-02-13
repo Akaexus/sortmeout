@@ -1,7 +1,3 @@
-//
-// Created by krzysztof on 13.02.18.
-//
-
 #ifndef SORTMEOUT_SORT_H
 #define SORTMEOUT_SORT_H
 #include <vector>
