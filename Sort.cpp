@@ -1,4 +1,4 @@
-#include "sort.h"
+#include "Sort.h"
 #include <vector>
 
 std::vector<int> Sort::bubble(std::vector<int> s, bool reverse) {

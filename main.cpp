@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "sort.h"
+#include "Sort.h"
 #include "Sequence.h"
 
 
@@ -10,6 +10,7 @@ int main() {
     Sort heh;
     Sequence xd;
     xd.loadFromFile("/home/krzysztof/CLionProjects/sortmeout/liczby.txt");
-    std::cout << xd.prettyPrint(xd.sequence);
+    xd.generateSequence(10, 0, 10);
+    std::cout << xd.prettyPrint(heh.bubble(xd.sequence));
     return 0;
 }
