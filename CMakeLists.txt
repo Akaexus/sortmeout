@@ -3,4 +3,4 @@ project(sortmeout)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(sortmeout main.cpp)
+add_executable(sortmeout main.cpp sort.cpp sort.h)
