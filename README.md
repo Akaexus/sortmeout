@@ -191,5 +191,14 @@ function merge( var a as array, var b as array )
 ### Przykład
 ![merge sort](https://upload.wikimedia.org/wikipedia/commons/6/60/Mergesort_algorithm_diagram.png)
 
+## Quicksort (sortowanie szybkie)
+ do zrobienia!
+
+
+# Działanie algorytmów
+![wykres](wykres.svg)
+## Wnioski
+ do zrobienia
+
 # TODO
 [TODO.md](TODO.md)
