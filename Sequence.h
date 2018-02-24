@@ -14,6 +14,7 @@ class Sequence {
         bool loadFromFile(std::string path);
         bool saveToFile(std::string path);
         bool generateSequence(int length, int min, int max);
+        std::string prettyPrint();
         std::string prettyPrint(std::vector<int> v);
     protected:
         std::vector<int> stringToSequence(std::string s);

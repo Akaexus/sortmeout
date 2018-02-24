@@ -56,7 +56,7 @@ bool Sequence::saveToFile(std::string path) {
 bool Sequence::generateSequence(int length, int min, int max) {
     srand(time(NULL));
     for(int i=0; i<length; i++) {
-        this->sequence.push_back(rand()%max+min);
+        this->sequence.push_back(rand()%(max-min)+min);
     }
     return true;
 }
@@ -78,6 +78,9 @@ bool Sequence::loadFromFile(std::string path) {
     }
 }
 
+std::string Sequence::prettyPrint() {
+    return this->prettyPrint(this->sequence);
+}
 
 std::string Sequence::prettyPrint(std::vector<int> v) {
     std::stringstream output;
