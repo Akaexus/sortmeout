@@ -213,13 +213,13 @@ quickPart(s[] , b, e){
     j--;
     if(j + 1 < e)
         quickPart(s, j+1, e);
-    
+
     if(j-1 > b)
         quickPart(s, b, j-1);
     return true;
 }
 ```
- 
+
  ### Złożoność
  | Sytuacja | Złożoność |
  | --- | --- |
@@ -235,6 +235,16 @@ quickPart(s[] , b, e){
 ![wykres](wykres.svg)
 ## Wnioski
  do zrobienia
+
+# Dalszy rozwój projektu
+Oto dalsze pomysły na rozwój programu:
+* możliwa implementacja dodatkowych algorytmów sortowania
+* refaktoryzacja kodu
+* printowanie wyników w ładnych tabelach
+* dodanie dodatkowych presetów sortowań (np. quicksort ze zmienną długością ciągu z przeskokiem **n** )
+* dodanie sortowanie stringów
+* obsługa parametrów uruchomieniowych
+* optymalizacja algorytmów sortowania
 
 # TODO
 [TODO.md](TODO.md)
