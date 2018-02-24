@@ -62,9 +62,6 @@ std::vector<int> Sort::mmerge(std::vector<int> a, std::vector<int> b) {
     return result;
 }
 
-
-
-
 std::vector<int> Sort::merge(std::vector<int> s) {
     if(s.size()==1) {
         return s;
@@ -77,3 +74,26 @@ std::vector<int> Sort::merge(std::vector<int> s) {
     return mmerge(s1, s2);
 }
 
+std::vector <int> Sort::quick(std::vector<int> s){
+    quickPart(s,0,s.size()-1);
+    return s;
+}
+
+bool Sort::quickPart(std::vector<int>& s, int b, int e){
+    int j = b;
+    int pivot = s[e];
+    for(int i = b; i <= e; i++){
+        if(s[i] <= pivot){
+            std::swap(s[i], s[j]);
+            j++;
+        }
+    }
+    j--;
+    if(j + 1 < e){
+        quickPart(s, j+1, e);
+    }
+    if(j-1 > b){
+        quickPart(s, b, j-1);
+    }
+    return true;
+}
