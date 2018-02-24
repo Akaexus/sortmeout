@@ -192,7 +192,43 @@ function merge( var a as array, var b as array )
 ![merge sort](https://upload.wikimedia.org/wikipedia/commons/6/60/Mergesort_algorithm_diagram.png)
 
 ## Quicksort (sortowanie szybkie)
- do zrobienia!
+ ![merge sort](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
+
+Z tablicy wybiera się element rozdzielający, po czym tablica jest dzielona na dwa fragmenty: do początkowego przenoszone są wszystkie elementy nie większe od rozdzielającego, do końcowego wszystkie większe. Potem sortuje się osobno początkową i końcową część tablicy. Rekursja kończy się, gdy kolejny fragment uzyskany z podziału zawiera pojedynczy element, jako że jednoelementowa tablica nie wymaga sortowania.
+
+### Pseudokod
+```c++
+function quick(s){
+    quickPart(s,0,s.size()-1);
+    return s;
+}
+
+quickPart(s[] , b, e){
+    j = b;
+    pivot = s[e];
+    for i = b to e:
+        if (s[i] <= pivot)
+            std::swap(s[i], s[j]);
+            j++;
+    j--;
+    if(j + 1 < e)
+        quickPart(s, j+1, e);
+    
+    if(j-1 > b)
+        quickPart(s, b, j-1);
+    return true;
+}
+```
+ 
+ ### Złożoność
+ | Sytuacja | Złożoność |
+ | --- | --- |
+ | pesymistyczna | O(n^2) |
+ | typowa | O(n log n) |
+ | optymistyczna | O(n log n) |
+
+ ### Przykład
+ ![merge sort](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Quicksort-diagram.svg/240px-Quicksort-diagram.svg.png)
 
 
 # Działanie algorytmów
