@@ -1,29 +1,15 @@
 
 
-
-# <center>**Sort me out**</center>
+# Sort me out
 Dokumentacja grupowego projektu z dziedziny algorytmów sortowania oraz generowania losowych ciągów w języku programowania C++. Projekt jest realizowany w cztero osobowym zespole. Zadanie jest przygotowywane na zajęcia z informatyki rozszerzonej.
 
-----------
-
-<center>Autorzy projektu:</center>
-<center>Krzysztof "Dzban",</center>
-<center>Łukasz  "lokcio",</center>
-<center>Krzysztof "kak500"</center>
-<center>Tomasz  </center>
-
-----------
-<center>Poznań 2018</center>
-<center>ver. 1.0</center>
-
-
-----------
-Dokumentacja przygotowana w języku znaczników Markdown. Zalecane jest czytanie tej dokumentacji na dokumentacji repozytorium pod adresem: **https://github.com/Dzban/sortmeout**
-Tam również znajduje się kod źródłowy programu. Dokumentacja w formie PDFa została stworzona tylko na potrzeby wymagań do projektu znajdującego się pod adresem http://druggist.github.io/teaching/data/proj_prog.pdf
+* Krzysztof @Dzban
+* Łukasz @lokcio
+* Krzysztof @kak500
+* Tomasz
 
 # Opis projektu
-Projekt groupowy sortmeout to projekt mający na celu poznanie oraz popularyzacje algorytmów sortowania oraz naukę pracy zespołowej podczas programowania.
-W celu lepszego zarządzania projektem grupa zdecydowała na użycie rozproszonego systemu kontroli wersji - Git.
+Projekt groupowy sortmeout to projekt mający na celu poznanie oraz popularyzacje algorytmów sortowania oraz naukę pracy zespołowej podczas programowania. W celu lepszego zarządzania projektem grupa zdecydowała na użycie rozproszonego systemu kontroli wersji - git.
 
 Projekt składa się z następujących funkcjonalności
 * generowanie ciągów o podanej przez użytkownika długości
@@ -258,33 +244,33 @@ quickPart(s[] , b, e){
 ![wykres](wykres.svg)
 Powyższy wykres obrazuje czas jaki potrzebują dane algorytmy w zależności od liczby danych do posortowania. Czyli przedstawia złożoność czasową.
 # Wnioski
-Wnioski zostały podzielone na część. Trzy odnoszą się do wykonywania projektu ostatni jest wnioskami który wynika z obserwacji już działającego programu (obserwacje). Pierwsze dwie z tym co się udało zrealizować (sukcesy) i na to co się nie udało i co warto by było poprawić (porażki) przy realizacji następnych projektów. Ostatni akapit wskazuje na możliwe rozwiązania porażek oraz rozwinięcie sukcesów (wnioski z projektu).
-
+Wnioski zostały sformułowane na podstawie działania poszczególnych algorytmów sortowania oraz oberswacji pracy w grupie.
 
 ## Sukcesy
 * Napisanie aplikacji w paradygmacie obiektowym.
-* Zapoznanie części zespołu z Gitem, Jest to podwójny sukces ze względu na to że:
-  * Krzysztof usystematyzował swoją wiedzę do poziomu aby nauczyć gita Łukasza, poznał i wymyślił rozwiązania problemów i błędów na które sam by nie wpadł. Co bez wątpienia podniosła umiejętności dydaktyczne Krzysztofa.
-   * Łukasz poznał Gita.
+* Zapoznanie części zespołu z gitem, Jest to podwójny sukces ze względu na to że:
+  * Krzysztof usystematyzował swoją wiedzę do poziomu, by nauczyć gita Łukasza, poznał i wymyślił rozwiązania problemów i błędów na które sam by nie wpadł. Co bez wątpienia podniosła umiejętności dydaktyczne Krzysztofa.
+   * Łukasz poznał gita.
  * Poznanie nowej technologi pisania dokumentacji - Markdown.
  * Implementacja wszystkich wymaganych algorytmów sortowania.
  * Nabycie większego doświadczenia w przeszukiwaniu anglojęzycznych źródeł informacji i pomocy dotyczącej programowania.
 ## Porażki
-* Nie wszyscy członkowie zespołu byli skłonni nauczyć się Gita.
+* Nie wszyscy członkowie zespołu byli skłonni nauczyć się gita.
 * Tylko Krzysztof przeprowadził refaktoryzacje kodu.
 * Brak przeprowadzenia dokładnych testów wydajnościowych implementacji algorytmów.
 * Kiepski kontakt między niektórymi członkami grupy.
 * Brak spotkań podsumowujących etapy wykonywania projektu.  
 ## Wnioski z projektu
 * Dobrze by było spotkać się aby stworzyć całą grupą plan wykonania projektu i nadawać terminy na zakończenie poszczególnych etapów.
-* Większe zangarzowanie nie których członków zespołu poprzez lepszy kontakt - brak facebooka można nadrobić zakładając grupę na Slacku.
+* Dobrym rozwiązaniem jest tworzenie osobnych branchy.
+* Większe zaangażowanie nie których członków zespołu poprzez lepszy kontakt np. Slack.
 * Po poszczególnych etapach wykonywanie refaktoryzacji przez kolejnych członków grupy.
-* W czasie pierwszego spotkania zaznajomić wszystkich z Gitem.
+* W czasie pierwszego spotkania zaznajomić wszystkich z gitem.
 ## Obserwacje
 * Dzięki zastosowaniu OOP dalszy rozwój będzie łatwy do zrealizowania.
 * Różne algorytmy różnią się zarówno skomplikowaniem jak i złożonością obliczeniową. Zazwyczaj jest ona odwrotnie proporcjonalna do złożoności algorytmu.
-*  Niektóre algorytmy mogą przepełnić stos wywołując się rekurencyjnie.
-* Wykorzystanie wektorów zamiast tablic znacznie przyśpieszyło pisanie kodu.
+* Niektóre algorytmy mogą przepełnić stos wywołując się rekurencyjnie.
+* Wykorzystanie wektorów zamiast tablic znacznie ułatwiło pisanie kodu.
 # Dalszy rozwój projektu
 Oto dalsze pomysły na rozwój programu:
 * możliwa implementacja dodatkowych algorytmów sortowania
