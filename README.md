@@ -1,6 +1,29 @@
-# Sort me out
+
+
+
+# <center>**Sort me out**</center>
+Dokumentacja grupowego projektu z dziedziny algorytmów sortowania oraz generowania losowych ciągów w języku programowania C++. Projekt jest realizowany w cztero osobowym zespole. Zadanie jest przygotowywane na zajęcia z informatyki rozszerzonej.
+
+----------
+
+<center>Autorzy projektu:</center>
+<center>Krzysztof "Dzban",</center>
+<center>Łukasz  "lokcio",</center>
+<center>Krzysztof "kak500"</center>
+<center>Tomasz  </center>
+
+----------
+<center>Poznań 2018</center>
+<center>ver. 1.0</center>
+
+
+----------
+Dokumentacja przygotowana w języku znaczników Markdown. Zalecane jest czytanie tej dokumentacji na dokumentacji repozytorium pod adresem: **https://github.com/Dzban/sortmeout**
+Tam również znajduje się kod źródłowy programu. Dokumentacja w formie PDFa została stworzona tylko na potrzeby wymagań do projektu znajdującego się pod adresem http://druggist.github.io/teaching/data/proj_prog.pdf
+
 # Opis projektu
 Projekt groupowy sortmeout to projekt mający na celu poznanie oraz popularyzacje algorytmów sortowania oraz naukę pracy zespołowej podczas programowania.
+W celu lepszego zarządzania projektem grupa zdecydowała na użycie rozproszonego systemu kontroli wersji - Git.
 
 Projekt składa się z następujących funkcjonalności
 * generowanie ciągów o podanej przez użytkownika długości
@@ -233,9 +256,35 @@ quickPart(s[] , b, e){
 
 # Działanie algorytmów
 ![wykres](wykres.svg)
-## Wnioski
- do zrobienia
+Powyższy wykres obrazuje czas jaki potrzebują dane algorytmy w zależności od liczby danych do posortowania. Czyli przedstawia złożoność czasową.
+# Wnioski
+Wnioski zostały podzielone na część. Trzy odnoszą się do wykonywania projektu ostatni jest wnioskami który wynika z obserwacji już działającego programu (obserwacje). Pierwsze dwie z tym co się udało zrealizować (sukcesy) i na to co się nie udało i co warto by było poprawić (porażki) przy realizacji następnych projektów. Ostatni akapit wskazuje na możliwe rozwiązania porażek oraz rozwinięcie sukcesów (wnioski z projektu).
 
+
+## Sukcesy
+* Napisanie aplikacji w paradygmacie obiektowym.
+* Zapoznanie części zespołu z Gitem, Jest to podwójny sukces ze względu na to że:
+  * Krzysztof usystematyzował swoją wiedzę do poziomu aby nauczyć gita Łukasza, poznał i wymyślił rozwiązania problemów i błędów na które sam by nie wpadł. Co bez wątpienia podniosła umiejętności dydaktyczne Krzysztofa.
+   * Łukasz poznał Gita.
+ * Poznanie nowej technologi pisania dokumentacji - Markdown.
+ * Implementacja wszystkich wymaganych algorytmów sortowania.
+ * Nabycie większego doświadczenia w przeszukiwaniu anglojęzycznych źródeł informacji i pomocy dotyczącej programowania.
+## Porażki
+* Nie wszyscy członkowie zespołu byli skłonni nauczyć się Gita.
+* Tylko Krzysztof przeprowadził refaktoryzacje kodu.
+* Brak przeprowadzenia dokładnych testów wydajnościowych implementacji algorytmów.
+* Kiepski kontakt między niektórymi członkami grupy.
+* Brak spotkań podsumowujących etapy wykonywania projektu.  
+## Wnioski z projektu
+* Dobrze by było spotkać się aby stworzyć całą grupą plan wykonania projektu i nadawać terminy na zakończenie poszczególnych etapów.
+* Większe zangarzowanie nie których członków zespołu poprzez lepszy kontakt - brak facebooka można nadrobić zakładając grupę na Slacku.
+* Po poszczególnych etapach wykonywanie refaktoryzacji przez kolejnych członków grupy.
+* W czasie pierwszego spotkania zaznajomić wszystkich z Gitem.
+## Obserwacje
+* Dzięki zastosowaniu OOP dalszy rozwój będzie łatwy do zrealizowania.
+* Różne algorytmy różnią się zarówno skomplikowaniem jak i złożonością obliczeniową. Zazwyczaj jest ona odwrotnie proporcjonalna do złożoności algorytmu.
+*  Niektóre algorytmy mogą przepełnić stos wywołując się rekurencyjnie.
+* Wykorzystanie wektorów zamiast tablic znacznie przyśpieszyło pisanie kodu.
 # Dalszy rozwój projektu
 Oto dalsze pomysły na rozwój programu:
 * możliwa implementacja dodatkowych algorytmów sortowania
@@ -246,5 +295,8 @@ Oto dalsze pomysły na rozwój programu:
 * obsługa parametrów uruchomieniowych
 * optymalizacja algorytmów sortowania
 
-# TODO
-[TODO.md](TODO.md)
+# Podział procentowy wykonanej pracy
+Krzysztof - 30%
+Łukasz - 25%
+Krzysztof - 25%
+Tomasz - 20%
